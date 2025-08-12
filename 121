@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>We Are On Top</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://i.pinimg.com/originals/51/ae/a3/51aea3393b8234a1e69d8713a0a58bc3.gif') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Courier New', Courier, monospace;
+      color: #00ffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .flag-container {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+      margin-bottom: 25px;
+    }
+
+    .flag-container img {
+      width: 100px;
+      height: auto;
+      border-radius: 10px;
+      opacity: 0.95;
+      box-shadow: 0 0 10px #00ffff;
+      transition: transform 0.3s ease;
+    }
+
+    .flag-container img:hover {
+      transform: scale(1.1);
+    }
+
+    .text-block {
+      font-size: 34px;
+      font-weight: bold;
+      text-shadow: 0 0 10px #00ffff;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .bottom-text {
+      font-size: 34px;
+      font-weight: bold;
+      color: #00ffff;
+      text-shadow: 0 0 15px #00ffff;
+      margin-bottom: 20px;
+    }
+
+    audio {
+      display: none; /* تخفي مشغل الصوت */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- الأعلام -->
+  <div class="flag-container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg" alt="علم السعودية">
+    <img src="https://flagcdn.com/w320/sy.png" alt="علم سوريا">
+  </div>
+
+  <!-- النصوص -->
+  <div class="text-block">
+    <div>وي آر أون توب</div>
+    <div>We are on top</div>
+  </div>
+
+  <!-- النص الأخير -->
+  <div class="bottom-text">
+    Syria & Saudi Arabia On Top
+  </div>
+
+  <!-- تشغيل الصوت تلقائي -->
+  <audio autoplay loop>
+    <source src="https://drive.google.com/uc?export=download&id=1cuA4EJZ-qEdpI78H_UTmHs9UVdp1Sbmm" type="audio/mpeg">
+    متصفحك لا يدعم عنصر الصوت.
+  </audio>
+
+</body>
+</html>

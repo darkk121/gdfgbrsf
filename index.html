@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Free Palestine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>We Are On Top</title>
   <style>
     body {
       margin: 0;
@@ -41,17 +41,23 @@
     }
 
     .text-block {
-      font-size: 28px;
+      font-size: 34px;
+      font-weight: bold;
       text-shadow: 0 0 10px #00ffff;
       line-height: 1.6;
+      margin-bottom: 30px;
     }
 
     .bottom-text {
-      margin-top: 30px;
       font-size: 34px;
       font-weight: bold;
       color: #00ffff;
       text-shadow: 0 0 15px #00ffff;
+      margin-bottom: 20px;
+    }
+
+    audio {
+      display: none; /* تخفي مشغل الصوت */
     }
   </style>
 </head>
@@ -59,21 +65,26 @@
 
   <!-- الأعلام -->
   <div class="flag-container">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg" alt="Saudi Flag">
-    <img src="https://flagcdn.com/w320/sy.png" alt="Syrian Flag">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg" alt="علم السعودية">
+    <img src="https://flagcdn.com/w320/sy.png" alt="علم سوريا">
   </div>
 
-  <!-- الكتابة -->
+  <!-- النصوص -->
   <div class="text-block">
-    <div>فلسطين حرة</div>
-    <div dir="rtl">פלסטין חופשית</div>
-    <div>Free Palestine</div>
+    <div>وي آر أون توب</div>
+    <div>We are on top</div>
   </div>
 
-  <!-- ✅ النص الأخير -->
+  <!-- النص الأخير -->
   <div class="bottom-text">
     Syria & Saudi Arabia On Top
   </div>
-  
-  <!-- النص الأخير -->
-  <div class="bottom-text">
+
+  <!-- تشغيل الصوت تلقائي -->
+  <audio autoplay loop>
+    <source src="https://drive.google.com/uc?export=download&id=1cuA4EJZ-qEdpI78H_UTmHs9UVdp1Sbmm" type="audio/mpeg">
+    متصفحك لا يدعم عنصر الصوت.
+  </audio>
+
+</body>
+</html>
